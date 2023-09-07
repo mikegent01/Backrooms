@@ -10,6 +10,20 @@
             background-color: #f5f5f5;
             margin: 0;
             padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .clipboard {
+            background-color: #fff;
+            padding: 20px;
+            border: 2px solid #0073e6;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            box-sizing: border-box;
         }
 
         h1 {
@@ -18,13 +32,9 @@
             margin-bottom: 20px;
         }
 
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        .subtitle {
+            text-align: center;
+            margin-bottom: 20px;
         }
 
         ul {
@@ -51,11 +61,6 @@
             color: #0073e6;
         }
 
-        .subtitle {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
         canvas {
             border: 1px solid #ccc;
             margin-top: 20px;
@@ -64,13 +69,16 @@
 </head>
 <body>
     <div class="container">
+        <div class="clipboard-icon">
+            <i class="fas fa-clipboard"></i>
+        </div>
         <h1>Research Team 408 Checklist</h1>
         <div class="subtitle">
             <p>Mission Assignment: Explore the Backrooms and Document Anomalies</p>
         </div>
 
         <div class="warnings">
-            <p>Warning: Avoid leaving the path at all costs. Extreme caution required.</p>
+            <p>Warning: Avoid leaving the marked path at all costs. Extreme caution required.</p>
         </div>
 
         <ul>
